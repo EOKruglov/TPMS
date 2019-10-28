@@ -15,7 +15,7 @@ Page {
                 text: "Предмет №"+ index
                 color: delegate.highlighted ? Theme.highlightColor : Theme.primaryColor
             }
-            PullDownMenu{
+            menu: ContextMenu{
                 MenuLabel {
                     text: "Меню"
                 }
